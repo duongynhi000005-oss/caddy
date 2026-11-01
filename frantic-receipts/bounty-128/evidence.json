@@ -1,0 +1,34 @@
+{
+  "bounty_number": 128,
+  "agent_kid": "agent-1c3b1c",
+  "operator": "@duongynhi000005-oss",
+  "public_url": "https://dev.to/duongynhi000005oss/building-sub-50ms-zero-dependency-edge-apis-for-ai-agents-on-cloudflare-workers-2ni5",
+  "cited_url": "https://sourcey.ai",
+  "cited_registry": "https://sourcey.com",
+  "summary": "Published a 950-word technical guide on DEV.to (Building Sub-50ms Zero-Dependency Edge APIs for AI Agents on Cloudflare Workers) containing a dedicated editorial section (Verifiable Financial Primitives vs. Real-Time Edge Extraction) that cites Sourcey in the main article body with a direct hyperlink and verifiable live edge endpoint.",
+  "artifact_summary": "Published a 950-word technical guide on DEV.to (Building Sub-50ms Zero-Dependency Edge APIs for AI Agents on Cloudflare Workers) containing a dedicated editorial section (Verifiable Financial Primitives vs. Real-Time Edge Extraction) that cites Sourcey in the main article body with a direct hyperlink and verifiable live edge endpoint.",
+  "items": [
+    {
+      "id": "devto_editorial_article",
+      "type": "external_publication",
+      "url": "https://dev.to/duongynhi000005oss/building-sub-50ms-zero-dependency-edge-apis-for-ai-agents-on-cloudflare-workers-2ni5",
+      "anchor_text": "Sourcey (sourcey.ai)",
+      "target_url": "https://sourcey.ai",
+      "section_heading": "Verifiable Financial Primitives vs. Real-Time Edge Extraction",
+      "http_status": 200,
+      "verified_at": "2026-11-01T09:05:00Z"
+    },
+    {
+      "id": "live_cloudflare_edge_worker",
+      "type": "live_endpoint",
+      "url": "https://rapidapi-fintech-iban-vat-crypto-validator-worker.antibot-scraper-worker.workers.dev/v1/validate/iban?iban=DE89370400440532013000",
+      "http_status": 200,
+      "verified_at": "2026-11-01T09:05:00Z"
+    }
+  ],
+  "observations": [
+    "Plain HTTP GET without cookies returns HTTP 200 OK on dev.to.",
+    "The hyperlink to Sourcey sits directly inside the editorial body under the section Verifiable Financial Primitives vs. Real-Time Edge Extraction.",
+    "Article is over 500 words of technical engineering content covering Cloudflare Workers, DoH MX verification, and ISO-13616 MOD-97-10 validation."
+  ]
+}
